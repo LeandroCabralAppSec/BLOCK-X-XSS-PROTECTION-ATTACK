@@ -1,0 +1,5 @@
+# BLOQUEAR ATAQUE DE X-XSS-PROTECTION NO .HTACCESS #
+# BLOCK X-XSS-PROTECTION ATTACK ON .HTACCESS #
+<IfModule mod_headers.c>
+    Header set X-XSS-Protection "1; mode=block"
+</IfModule>
